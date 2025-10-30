@@ -153,7 +153,7 @@ class Magazine extends LibraryItem {
         };  
     }  
   
-Miles, [Oct 30, 2025 at 12:37]  
+
   
   
     @Override  
@@ -305,7 +305,7 @@ public class LibraryManagementApp extends JFrame {
         setupUI();  
     }  
   
-Miles, [Oct 30, 2025 at 12:37]  
+
   
   
     private void initializeTestData() {  
@@ -416,10 +416,7 @@ Miles, [Oct 30, 2025 at 12:37]
             String selected = (String) filterCombo.getSelectedItem();  
             List<LibraryItem> filtered = manager.getAllItems();  
             List<LibraryItem> result = new ArrayList<>();  
-  
-Miles, [Oct 30, 2025 at 12:37]  
-  
-  
+            
             if (selected.equals("Книги")) {  
                 for (LibraryItem item : filtered) {  
                     if (item instanceof Book) {  
@@ -526,7 +523,7 @@ Miles, [Oct 30, 2025 at 12:37]
                 "Підтвердження повернення",  
                 JOptionPane.YES_NO_OPTION);  
   
-Miles, [Oct 30, 2025 at 12:37]  
+
   
   
         if (confirm == JOptionPane.YES_OPTION) {  
@@ -627,7 +624,7 @@ Miles, [Oct 30, 2025 at 12:37]
                         "Успіх",  
                         JOptionPane.INFORMATION_MESSAGE);  
   
-Miles, [Oct 30, 2025 at 12:37]  
+
   
   
             } catch (NumberFormatException ex) {  
